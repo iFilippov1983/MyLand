@@ -57,34 +57,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Character_System\Scripts\HeroCtrl.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
-    <Compile Include="Assets\Medieval Environment\Shaders\TerrainRand.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+    <Compile Include="Assets\GUI\MyAdvancedGUI.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+    <Compile Include="Assets\GUI\MyGUILayout.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+    <Compile Include="Assets\Terrain\Shaders\TerrainRand.cs" />
+    <Compile Include="Assets\GUI\myGUI.cs" />
     <Compile Include="Assets\Character_System\Scripts\DemoGUI.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
-    <Compile Include="Assets\Medieval Environment\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\GUI\MyIMGUI.cs" />
     <Compile Include="Assets\Character_System\Scripts\HeroCamera.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Sources\Scripts\Water.cs" />
-    <Compile Include="Assets\Medieval Environment\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
-    <Compile Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Sources\Scripts\Water.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+    <Compile Include="Assets\Scripts\(broken)CustomWindow.cs" />
+    <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+    <Compile Include="Assets\GUI\MainGUI.cs" />
   </ItemGroup>
   <ItemGroup>
-     <None Include="Assets\Medieval Environment\Shaders\Blend SM2.shader" />
-     <None Include="Assets\Medieval Environment\readme.txt" />
-     <None Include="Assets\Medieval Environment\Shaders\TriPlanarTerrain\Shaders\triPlanarTerrainAddPass.shader" />
-     <None Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
-     <None Include="Assets\Medieval Environment\Shaders\Blend SM3.shader" />
-     <None Include="Assets\Medieval Environment\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
-     <None Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
-     <None Include="Assets\Medieval Environment\Shaders\Desaturate\DesaturateEffect.shader" />
-     <None Include="Assets\Terrain\Water\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
-     <None Include="Assets\Medieval Environment\Shaders\shader info.txt" />
-     <None Include="Assets\Terrain\Water\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
-     <None Include="Assets\Medieval Environment\Shaders\TriPlanarTerrain\Shaders\triPlanarTerrain.shader" />
-     <None Include="Assets\Medieval Environment\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Terrain\Shaders\Blend SM2.shader" />
+     <None Include="Assets\Terrain\Shaders\TriPlanarTerrain\Shaders\triPlanarTerrainAddPass.shader" />
+     <None Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Terrain\Shaders\Blend SM3.shader" />
+     <None Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Terrain\Shaders\shader info.txt" />
+     <None Include="Assets\Terrain\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Terrain\Shaders\TriPlanarTerrain\Shaders\triPlanarTerrain.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
