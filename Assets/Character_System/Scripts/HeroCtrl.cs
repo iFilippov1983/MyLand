@@ -2,11 +2,11 @@ using UnityEngine;
 using System.Collections;
 
 
-[RequireComponent(typeof(Animator))]  
-[RequireComponent(typeof(CapsuleCollider))]  
-[RequireComponent(typeof(Rigidbody))]  
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(CapsuleCollider))]
+[RequireComponent(typeof(Rigidbody))]
 
-public class HeroCtrl : MonoBehaviour 
+public class HeroCtrl : MonoBehaviour
 {
 	public LayerMask groundLayers = -1;
 	public LayerMask wallRunLayers = -1;
@@ -123,9 +123,11 @@ public class HeroCtrl : MonoBehaviour
 	bool doPullLever;
 	bool doPushButton;
 	bool doThrow;
+
 	
+
 	AnimatorStateInfo st;
-	
+
 	// Anim Controllers   ----------------------- //
 	public AnimControllers animCtrl;
 	[System.Serializable]
@@ -205,11 +207,11 @@ public class HeroCtrl : MonoBehaviour
 	public bool useIdleFeetPlacement = true;
 
     //=================================================================================================================o
-    private void Awake()
-    {
-		Cursor.lockState = CursorLockMode.Locked;
-		Cursor.visible = false;
-	}
+ //   private void Awake()
+ //   {
+	//	Cursor.lockState = CursorLockMode.Locked;
+	//	Cursor.visible = false;
+	//}
 
     void Start () 
 	{
@@ -260,8 +262,14 @@ public class HeroCtrl : MonoBehaviour
 			hero.rotation *= a.deltaRotation; 	
 		}
 	}
-	//=================================================================================================================o
-	
+    //=================================================================================================================o
+
+    private void Update()
+    {
+		
+
+	}
+
 	void FixedUpdate () 
 	{
 		// Grab Input each frame --- Handy for your custom input setting and AI
@@ -292,11 +300,12 @@ public class HeroCtrl : MonoBehaviour
 		doPullLever = Input.GetKeyDown(KeyCode.L);
 		doPushButton = Input.GetKeyDown(KeyCode.P);
 		doThrow = Input.GetKeyDown(KeyCode.G);
+
 		
+
 		
-		
-		
-		if(a)
+
+        if (a)
 		{
 			grounded = Physics.Raycast (hero.position + hero.up * col.center.y,
 				hero.up * -1, out groundHit, groundedDistance, groundLayers);
