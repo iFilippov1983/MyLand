@@ -67,13 +67,14 @@
     <Compile Include="Assets\GUI\myGUI.cs" />
     <Compile Include="Assets\Character_System\Scripts\DemoGUI.cs" />
     <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\GUI\MainGUI.cs" />
     <Compile Include="Assets\GUI\MyIMGUI.cs" />
     <Compile Include="Assets\Character_System\Scripts\HeroCamera.cs" />
     <Compile Include="Assets\Terrain\Water (Pro Only)\Sources\Scripts\Water.cs" />
     <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
     <Compile Include="Assets\Scripts\(broken)CustomWindow.cs" />
     <Compile Include="Assets\Terrain\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
-    <Compile Include="Assets\GUI\MainGUI.cs" />
+    <Compile Include="Assets\Scripts\LightSettings.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Terrain\Shaders\Blend SM2.shader" />
