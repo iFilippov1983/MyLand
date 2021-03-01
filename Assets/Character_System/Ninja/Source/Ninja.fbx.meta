@@ -387,8 +387,8 @@ ModelImporter:
     - boneName: spine
       humanName: Spine
       limit:
-        min: {x: -40, y: -40, z: -40}
-        max: {x: 40, y: 40, z: 40}
+        min: {x: -40, y: -40, z: 0}
+        max: {x: 40, y: 40, z: 20}
         value: {x: 0.17417729, y: 0, z: 0.087088645}
         length: 0.21772169
         modified: 1
@@ -419,7 +419,7 @@ ModelImporter:
     - boneName: arm_L
       humanName: LeftUpperArm
       limit:
-        min: {x: -90, y: -100, z: -60.000004}
+        min: {x: 0, y: -100, z: -20}
         max: {x: 90, y: 100, z: 100}
         value: {x: 0.21091117, y: 0, z: 0.105455585}
         length: 0.26363903
@@ -427,7 +427,7 @@ ModelImporter:
     - boneName: arm_R
       humanName: RightUpperArm
       limit:
-        min: {x: -90, y: -100, z: -60.000004}
+        min: {x: 0, y: -100, z: -20}
         max: {x: 90, y: 100, z: 100}
         value: {x: 0.21091124, y: 0, z: 0.10545562}
         length: 0.26363912
@@ -435,7 +435,7 @@ ModelImporter:
     - boneName: elbow_L
       humanName: LeftLowerArm
       limit:
-        min: {x: -90, y: 0, z: -80}
+        min: {x: -90, y: 0, z: -20}
         max: {x: 90, y: 0, z: 80}
         value: {x: 0.20288175, y: 0, z: 0.10144088}
         length: 0.25360227
@@ -443,7 +443,7 @@ ModelImporter:
     - boneName: elbow_R
       humanName: RightLowerArm
       limit:
-        min: {x: -90, y: 0, z: -80}
+        min: {x: -90, y: 0, z: -20}
         max: {x: 90, y: 0, z: 80}
         value: {x: 0.20288187, y: 0, z: 0.10144094}
         length: 0.25360242
@@ -451,7 +451,7 @@ ModelImporter:
     - boneName: hand_L
       humanName: LeftHand
       limit:
-        min: {x: 0, y: -40, z: -80}
+        min: {x: 0, y: -40, z: -20}
         max: {x: 0, y: 40, z: 80}
         value: {x: 0.10144088, y: 0, z: 0.05072044}
         length: 0.12680113
@@ -459,7 +459,7 @@ ModelImporter:
     - boneName: hand_R
       humanName: RightHand
       limit:
-        min: {x: 0, y: -40, z: -80}
+        min: {x: 0, y: -40, z: -20}
         max: {x: 0, y: 40, z: 80}
         value: {x: 0.10144094, y: 0, z: 0.05072047}
         length: 0.12680121
@@ -730,7 +730,7 @@ ModelImporter:
     feetSpacing: 0
     globalScale: 1
     rootMotionBoneName: 
-    hasTranslationDoF: 0
+    hasTranslationDoF: 1
     hasExtraRoot: 0
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
