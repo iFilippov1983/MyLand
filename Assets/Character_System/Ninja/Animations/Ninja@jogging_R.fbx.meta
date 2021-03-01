@@ -253,7 +253,23 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.2173913
+        functionName: StepLeft
+        data: 
+        objectReferenceParameter: {fileID: 2699816318971226862, guid: 3ea82a6e1687bb4468c35f386c6e4812,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7130435
+        functionName: StepRight
+        data: 
+        objectReferenceParameter: {fileID: 2699816318971226862, guid: 3ea82a6e1687bb4468c35f386c6e4812,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -709,7 +725,8 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c4a473a78c01e4707a5aecb8c4eb6b0b, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c4a473a78c01e4707a5aecb8c4eb6b0b,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
